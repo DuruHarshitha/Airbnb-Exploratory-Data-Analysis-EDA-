@@ -1,103 +1,106 @@
+# 🏡 Airbnb Exploratory Data Analysis (EDA)
 
+## 📌 Project Overview
 
-🏡 Airbnb Exploratory Data Analysis (EDA)
-📌 Project Overview
-
-This project focuses on performing Exploratory Data Analysis (EDA) on Airbnb listings data to uncover key insights related to pricing, neighborhood trends, room types, and availability.
+This project focuses on performing **Exploratory Data Analysis (EDA)** on Airbnb listings data to uncover key insights related to **pricing, neighborhood trends, room types, and availability**.
 The goal is to understand market dynamics and provide actionable insights for hosts, travelers, and businesses.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```
 ├── airbnb.ipynb        # Jupyter Notebook with full analysis
 ├── README.md           # Project documentation
 └── requirements.txt    # Python dependencies
+```
 
-⚙️ Technologies Used
+---
 
-Python 3
+## ⚙️ Technologies Used
 
-Pandas – Data manipulation
+* **Python 3**
+* **Pandas** – Data manipulation
+* **NumPy** – Numerical computing
+* **Matplotlib** – Data visualization
+* **Seaborn** – Statistical plots
+* **Scikit-learn** – (Optional) Machine learning/preprocessing
 
-NumPy – Numerical computing
+---
 
-Matplotlib – Data visualization
+## 🔍 Key Analysis Performed
 
-Seaborn – Statistical plots
+1. **Data Cleaning**
 
-Scikit-learn – (Optional) Machine learning/preprocessing
+   * Handling missing values
+   * Removing duplicates
+   * Standardizing column formats
 
-🔍 Key Analysis Performed
+2. **Univariate Analysis**
 
-Data Cleaning
+   * Price distribution
+   * Room type frequencies
+   * Availability analysis
 
-Handling missing values
+3. **Bivariate & Multivariate Analysis**
 
-Removing duplicates
+   * Correlation between features
+   * Impact of location on price
+   * Relationship between reviews and price
 
-Standardizing column formats
+4. **Visualization**
 
-Univariate Analysis
+   * Histograms, bar plots, scatter plots
+   * Neighborhood price comparison
+   * Heatmaps for feature correlations
 
-Price distribution
+5. **Insights & Conclusions**
 
-Room type frequencies
+   * Popular neighborhoods for Airbnb
+   * Price patterns by room type and location
+   * Seasonal/availability trends
 
-Availability analysis
+---
 
-Bivariate & Multivariate Analysis
+## 🚀 How to Run
 
-Correlation between features
+1. Clone the repository:
 
-Impact of location on price
+   ```bash
+   git clone https://github.com/your-username/airbnb-eda.git
+   cd airbnb-eda
+   ```
+2. Install dependencies:
 
-Relationship between reviews and price
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook:
 
-Visualization
+   ```bash
+   jupyter notebook airbnb.ipynb
+   ```
 
-Histograms, bar plots, scatter plots
+---
 
-Neighborhood price comparison
+## 📊 Results & Insights
 
-Heatmaps for feature correlations
+* **Entire homes/apartments** dominate Airbnb listings.
+* Certain neighborhoods have significantly **higher average prices**.
+* **High review counts** often correlate with **moderate pricing** and better availability.
 
-Insights & Conclusions
+---
 
-Popular neighborhoods for Airbnb
-
-Price patterns by room type and location
-
-Seasonal/availability trends
-
-🚀 How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/airbnb-eda.git
-cd airbnb-eda
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open the Jupyter Notebook:
-
-jupyter notebook airbnb.ipynb
-
-📊 Results & Insights
-
-Entire homes/apartments dominate Airbnb listings.
-
-Certain neighborhoods have significantly higher average prices.
-
-High review counts often correlate with moderate pricing and better availability.
-
-🏁 Conclusion
+## 🏁 Conclusion
 
 This project highlights how EDA can provide valuable insights into Airbnb’s marketplace. Such analysis can help:
 
-Hosts optimize pricing.
+* **Hosts** optimize pricing.
+* **Travelers** find cost-effective stays.
+* **Businesses** understand tourism dynamics.
 
-Travelers find cost-effective stays.
+---
 
-Businesses understand tourism dynamics
+## 🤝 Contributions
+
+Contributions are welcome! Feel free to fork the repo, open issues, or submit pull requests.
