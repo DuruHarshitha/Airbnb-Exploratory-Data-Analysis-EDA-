@@ -67,7 +67,7 @@ The goal is to understand market dynamics and provide actionable insights for ho
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-Duru Harshitha/airbnb-eda.git
+   git clone https://github.com/your-DuruHarshitha/airbnb-eda.git
    cd airbnb-eda
    ```
 2. Install dependencies:
